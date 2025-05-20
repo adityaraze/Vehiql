@@ -162,7 +162,7 @@ const CarList = () => {
       <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
         <Button
           onClick={() => router.push("/admin/cars/create")}
-          className="flex items-center"
+          className="flex items-center w-full"
         >
           <Plus className="h-4 w-4" />
           Add Car
